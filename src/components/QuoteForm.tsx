@@ -99,7 +99,7 @@ export function QuoteForm() {
               Name
             </label>
             <input id="name" name="name" maxLength={80} className={field} placeholder="Jane Doe" />
-            {errors.name && <p className="mt-1 text-xs text-destructive">{errors.name}</p>}
+            {errors['name'] && <p className="mt-1 text-xs text-destructive">{errors['name']}</p>}
           </div>
           <div>
             <label className={label} htmlFor="phone">
@@ -113,7 +113,7 @@ export function QuoteForm() {
               className={field}
               placeholder="(630) 000-0000"
             />
-            {errors.phone && <p className="mt-1 text-xs text-destructive">{errors.phone}</p>}
+            {errors['phone'] && <p className="mt-1 text-xs text-destructive">{errors['phone']}</p>}
           </div>
         </div>
 
@@ -129,7 +129,7 @@ export function QuoteForm() {
             className={field}
             placeholder="you@email.com"
           />
-          {errors.email && <p className="mt-1 text-xs text-destructive">{errors.email}</p>}
+          {errors['email'] && <p className="mt-1 text-xs text-destructive">{errors['email']}</p>}
         </div>
 
         <div>
@@ -146,7 +146,7 @@ export function QuoteForm() {
               </option>
             ))}
           </select>
-          {errors.service && <p className="mt-1 text-xs text-destructive">{errors.service}</p>}
+          {errors['service'] && <p className="mt-1 text-xs text-destructive">{errors['service']}</p>}
         </div>
 
         <div>
@@ -161,7 +161,7 @@ export function QuoteForm() {
             className={field}
             placeholder="Full bathroom gut, about 40 sq ft, hoping to start next month…"
           />
-          {errors.details && <p className="mt-1 text-xs text-destructive">{errors.details}</p>}
+          {errors['details'] && <p className="mt-1 text-xs text-destructive">{errors['details']}</p>}
         </div>
 
         <button
