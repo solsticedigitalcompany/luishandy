@@ -124,9 +124,9 @@ const faqs = [
   ],
 ];
 
-function Stars() {
+function Stars({ className = "text-primary" }: { className?: string }) {
   return (
-    <div className="flex gap-0.5 text-primary" aria-label="5 out of 5 stars">
+    <div className={`flex gap-0.5 ${className}`} aria-label="5 out of 5 stars">
       {[0, 1, 2, 3, 4].map((i) => (
         <span key={i} aria-hidden="true">
           ★
@@ -190,7 +190,7 @@ function Home() {
           {/* Left: high-converting copy */}
           <div className="text-ink-foreground">
             <div className="inline-flex items-center gap-2 rounded-full bg-primary px-3.5 py-1.5 text-primary-foreground">
-              <Stars />
+              <Stars className="text-secondary" />
               <span className="text-xs font-bold">5.0 from local homeowners</span>
             </div>
 
