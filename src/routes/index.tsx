@@ -147,7 +147,7 @@ function Home() {
         </div>
       </div>
 
-      <header className="sticky top-0 z-40 border-b border-border bg-background/95 backdrop-blur">
+      <header className="sticky top-0 z-40 -mb-[76px] border-b border-white/10 bg-ink/40 backdrop-blur-md sm:-mb-[88px]">
         <div className="mx-auto grid max-w-7xl grid-cols-[minmax(0,1fr)_auto] items-center gap-4 px-5 py-3">
           <a href="#top" className="flex min-w-0 items-center">
             <img
@@ -161,7 +161,7 @@ function Home() {
           <div className="flex shrink-0 items-center gap-2">
             <a
               href={TEL}
-              className="hidden rounded-md border border-border px-4 py-2.5 font-display text-sm font-bold sm:inline-block"
+              className="hidden rounded-md border border-white/25 px-4 py-2.5 font-display text-sm font-bold text-ink-foreground transition hover:bg-white/10 sm:inline-block"
             >
               {PHONE}
             </a>
