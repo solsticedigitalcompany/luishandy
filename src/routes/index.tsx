@@ -147,7 +147,7 @@ function Home() {
         </div>
       </div>
 
-      <header className="sticky top-0 z-40 border-b border-white/10 bg-ink/40 backdrop-blur-md">
+      <header className="sticky top-0 z-40 -mb-[76px] border-b border-white/10 bg-ink/40 backdrop-blur-md sm:-mb-[88px]">
         <div className="mx-auto grid max-w-7xl grid-cols-[minmax(0,1fr)_auto] items-center gap-4 px-5 py-3">
           <a href="#top" className="flex min-w-0 items-center">
             <img
