@@ -149,16 +149,14 @@ function Home() {
 
       <header className="sticky top-0 z-40 border-b border-border bg-background/95 backdrop-blur">
         <div className="mx-auto grid max-w-7xl grid-cols-[minmax(0,1fr)_auto] items-center gap-4 px-5 py-3">
-          <a href="#top" className="flex min-w-0 items-center gap-3">
-            <span className="grid h-10 w-10 shrink-0 place-items-center rounded-md bg-primary font-display text-lg font-black text-primary-foreground">
-              L
-            </span>
-            <span className="min-w-0">
-              <span className="block truncate font-display text-[15px] font-extrabold leading-tight sm:text-base">
-                Luis' Handyman Services
-              </span>
-              <span className="block text-xs text-muted-foreground">&amp; Remodeling</span>
-            </span>
+          <a href="#top" className="flex min-w-0 items-center">
+            <img
+              src="/images/logo.jpg"
+              alt="Luis' Handyman Services &amp; Remodeling logo"
+              width={495}
+              height={155}
+              className="h-11 w-auto sm:h-14"
+            />
           </a>
           <div className="flex shrink-0 items-center gap-2">
             <a
