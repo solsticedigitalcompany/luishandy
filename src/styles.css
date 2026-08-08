@@ -160,5 +160,37 @@
   body {
     background-color: var(--color-background);
     color: var(--color-foreground);
+    font-family: var(--font-sans);
+    -webkit-font-smoothing: antialiased;
+  }
+
+  h1,
+  h2,
+  h3,
+  h4 {
+    font-family: var(--font-display);
+    font-weight: 800;
+    letter-spacing: -0.02em;
   }
 }
+
+@utility hero-overlay {
+  background-image: var(--gradient-hero);
+}
+
+@utility eyebrow {
+  font-family: var(--font-display);
+  font-weight: 700;
+  font-size: 0.75rem;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+}
+
+@utility rule-slash {
+  background-image: repeating-linear-gradient(
+    45deg,
+    var(--primary) 0 12px,
+    transparent 12px 24px
+  );
+}
+
