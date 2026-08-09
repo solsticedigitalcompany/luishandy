@@ -147,27 +147,27 @@ function Home() {
         </div>
       </div>
 
-      <header className="sticky top-0 z-40 -mb-[76px] border-b border-white/10 bg-ink/40 backdrop-blur-md sm:-mb-[88px]">
-        <div className="mx-auto grid max-w-7xl grid-cols-[minmax(0,1fr)_auto] items-center gap-4 px-5 py-3">
+      <header className="sticky top-0 z-40 -mb-[56px] border-b border-white/10 bg-ink/40 backdrop-blur-md sm:-mb-[64px]">
+        <div className="mx-auto grid max-w-7xl grid-cols-[minmax(0,1fr)_auto] items-center gap-4 px-5 py-1.5">
           <a href="#top" className="flex min-w-0 items-center">
             <img
               src="/images/logo.jpg"
               alt="Luis' Handyman Services &amp; Remodeling logo"
               width={495}
               height={155}
-              className="h-11 w-auto sm:h-14"
+              className="h-9 w-auto sm:h-11"
             />
           </a>
           <div className="flex shrink-0 items-center gap-2">
             <a
               href={TEL}
-              className="hidden rounded-md border border-white/25 px-4 py-2.5 font-display text-sm font-bold text-ink-foreground transition hover:bg-white/10 sm:inline-block"
+              className="hidden rounded-md border border-white/25 px-3.5 py-2 font-display text-sm font-bold text-ink-foreground transition hover:bg-white/10 sm:inline-block"
             >
               {PHONE}
             </a>
             <a
               href="#quote"
-              className="rounded-md bg-secondary px-4 py-2.5 font-display text-sm font-extrabold uppercase tracking-wide text-secondary-foreground transition hover:brightness-110"
+              className="rounded-md bg-secondary px-3.5 py-2 font-display text-sm font-extrabold uppercase tracking-wide text-secondary-foreground transition hover:brightness-110"
             >
               Free Estimate
             </a>
@@ -184,7 +184,7 @@ function Home() {
         />
         <div className="hero-overlay absolute inset-0 -z-10" />
 
-        <div className="mx-auto grid max-w-7xl items-center gap-10 px-5 py-14 lg:grid-cols-[1.05fr_460px] lg:gap-14 lg:py-20">
+        <div className="mx-auto grid max-w-7xl items-center gap-10 px-5 pb-12 pt-20 lg:grid-cols-[1.05fr_460px] lg:gap-14 lg:pb-10 lg:pt-24">
           {/* Left: high-converting copy */}
           <div className="text-ink-foreground">
             <div className="inline-flex items-center gap-2 rounded-full bg-primary px-3.5 py-1.5 text-primary-foreground">
@@ -192,19 +192,19 @@ function Home() {
               <span className="text-xs font-bold">5.0 from local homeowners</span>
             </div>
 
-            <h1 className="mt-5 text-4xl leading-[1.03] sm:text-5xl lg:text-[3.7rem]">
+            <h1 className="mt-4 text-4xl leading-[1.03] sm:text-5xl lg:text-[3.35rem]">
               The Bathroom You Keep
               <span className="block text-primary">Putting Off</span>
               Can Be Done This Season.
             </h1>
 
-            <p className="mt-5 max-w-xl text-lg leading-relaxed opacity-90">
+            <p className="mt-4 max-w-xl text-base leading-relaxed opacity-90 lg:text-lg">
               Luis' Handyman Services &amp; Remodeling is the family-owned crew Glendale Heights
               calls for remodels that finish on time, on budget, and cleaner than they started.
               <strong className="font-semibold"> One crew, one point of contact, zero excuses.</strong>
             </p>
 
-            <ul className="mt-6 grid gap-2.5 text-[15px] sm:grid-cols-2">
+            <ul className="mt-5 grid gap-2 text-[15px] sm:grid-cols-2">
               {[
                 "Free written estimate — no obligation",
                 "Same-week visits available",
@@ -220,7 +220,7 @@ function Home() {
               ))}
             </ul>
 
-            <div className="mt-8 flex flex-wrap items-center gap-3">
+            <div className="mt-6 flex flex-wrap items-center gap-3">
               <a
                 href={TEL}
                 className="rounded-md bg-primary px-6 py-4 font-display text-base font-extrabold text-primary-foreground shadow-lift transition hover:brightness-105"
@@ -230,7 +230,7 @@ function Home() {
               <span className="text-sm opacity-75">or text us — we answer both.</span>
             </div>
 
-            <dl className="mt-10 grid max-w-lg grid-cols-3 gap-4 border-t border-white/15 pt-6">
+            <dl className="mt-7 grid max-w-lg grid-cols-3 gap-4 border-t border-white/15 pt-5">
               {[
                 ["10+", "Years experience"],
                 ["300+", "Remodels completed"],
